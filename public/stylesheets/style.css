@@ -1,0 +1,12 @@
+.region-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.region-buttons .region-button {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  height: 150px;
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
