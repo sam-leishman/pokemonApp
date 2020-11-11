@@ -1,0 +1,19 @@
+{
+  "name": "pokemon-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/styles:public/stylesheets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-leishman/pokemonApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam-leishman/pokemonApp/issues"
+  },
+  "homepage": "https://github.com/sam-leishman/pokemonApp#readme"
+}
