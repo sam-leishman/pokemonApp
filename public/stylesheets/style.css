@@ -1,12 +1,41 @@
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 100px;
+}
+
 .region-buttons {
+  border-bottom: 3px solid black;
   display: flex;
   justify-content: space-around;
+  padding: 50px 0;
 }
 .region-buttons .region-button {
   background-color: whitesmoke;
   border: 1px solid black;
   height: 150px;
   width: 200px;
+  transition: all 350ms;
+}
+.region-buttons .region-button:hover {
+  background-color: black;
+  color: white;
+}
+
+#poke-container {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#poke-container .card {
+  width: 500px;
+}
+#poke-container .card .poke-image img {
+  width: 100%;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
