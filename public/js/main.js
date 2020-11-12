@@ -11,6 +11,10 @@ hoennButton.addEventListener('click', renderHoennPokemon);
 
 
 function selectRegion(region) { // Makes it so clicked region's bottom border is black
+    Array(...document.getElementById('regions').children).forEach(element => {
+        element.style.borderBottom = "1px solid black";
+    });
+
     document.getElementById(region).style.borderBottom = '5px solid black';
 }
 window.selectRegion = selectRegion;
