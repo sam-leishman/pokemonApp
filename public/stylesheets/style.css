@@ -6,14 +6,15 @@ header {
 }
 
 .region-buttons {
-  border-bottom: 3px solid black;
   display: flex;
   justify-content: space-around;
   padding: 50px 0;
 }
 .region-buttons .region-button {
+  box-sizing: border-box;
   background-color: whitesmoke;
   border: 1px solid black;
+  padding: 10px;
   height: 150px;
   width: 200px;
   transition: all 350ms;
